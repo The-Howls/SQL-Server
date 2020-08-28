@@ -1,0 +1,9 @@
+Q1: 請安裝 SQL Server，創建資料表(表名為main_funds)並把 "DataTable" worksheet 內表一資料匯入資料庫中的資料表內。建立完後，
+         1.請查詢前100筆資料(用primary_code由小到大排序)並把結果以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內
+         2.請把資料型態以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內
+Q2: 創建資料表(表名為i_primary_fund_sizes)並把右邊表二資料匯入資料庫中的資料表內。建立完後，
+         1.請查詢前100筆資料(用基金規模由大到小排序)並把結果以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內
+         2.請把資料型態以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內
+Q3: 請用您所知道最簡潔的SQL指令，統計ETF在不同註冊地的數目。請把查詢結果與查詢指令以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內。
+Q4: 請用您所知道最簡潔的SQL指令，統計ETF在不同註冊地的數目大於10的註冊地。請把查詢結果與查詢指令以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內。
+Q5: 請用您所知道最簡潔的SQL指令，查詢表一清單中的ETF與其最新日期的fund size(請用表二結合查詢)。請把查詢結果與查詢指令以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內。
