@@ -9,6 +9,18 @@ Q2: 創建資料表(表名為i_primary_fund_sizes)並把右邊表二資料匯入
          2.請把資料型態以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內
                   select count(*) from table2 as num;
                   select top 100 primary_code,t_date,fund_size from table2 order by fund_size asc;
-Q3: 請用您所知道最簡潔的SQL指令，統計ETF在不同註冊地的數目。請把查詢結果與查詢指令以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內。
-Q4: 請用您所知道最簡潔的SQL指令，統計ETF在不同註冊地的數目大於10的註冊地。請把查詢結果與查詢指令以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內。
-Q5: 請用您所知道最簡潔的SQL指令，查詢表一清單中的ETF與其最新日期的fund size(請用表二結合查詢)。請把查詢結果與查詢指令以貼圖的方式貼在 "SQL_Answer_v1.1.1" worksheet內。
+Q3: 創建表頭
+         CREATE TABLE HagisunAsset
+         (  
+         Vehicles NVARCHAR (30),  
+         Sanctuary NVARCHAR (30),    
+         Marine_Vehicles VARCHAR (30),      
+         Aircrafts NVARCHAR (30),     
+         ) ;
+Q4: 插入資料
+         INSERT INTO HagisunAsset (Vehicles, Sanctuary, Marine_Vehicles, Aircrafts) 
+         VALUES ( 'x', 'x', 'RapistNuclearSubmarine175m', 'x')
+Q5: 修正資料類型
+         alter table HagisunAsset
+         alter column Marine_Vehicles nvarchar(30);
+         
